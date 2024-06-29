@@ -4,4 +4,4 @@ langchain
 langchain_community
 requests
 streamlit
-pysqlite3
+pysqlite3-binary
