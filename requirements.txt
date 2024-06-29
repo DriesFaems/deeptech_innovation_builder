@@ -6,3 +6,4 @@ langchain_community
 requests
 streamlit
 pysqlite3-binary
+faiss-cpu
