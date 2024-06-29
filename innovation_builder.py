@@ -199,7 +199,6 @@ if st.button('Confirm') and api_key:
         agents=[technical_expert, market_expert, finalization_expert],
         tasks=[technical_optimization, competition_optimization, finalization],
         verbose=2,
-        manager_llm=ChatOpenAI(temperature=0, model="gpt-4o"),
         process=Process.sequential,
         full_output=True,
         share_crew=False,
