@@ -1,6 +1,4 @@
-crewai==0.32.2
-langchain_openai==0.2.5
-langchain==0.0.223
-crewai_tools==0.3.0
-streamlit==1.26.0
-requests==2.31.0
+streamlit
+crewai
+langchain_openai
+requests
