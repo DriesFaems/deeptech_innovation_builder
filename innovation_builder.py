@@ -72,7 +72,6 @@ if st.button('Confirm') and api_key:
     embedding = OpenAIEmbeddings(api_key=api_key)
 
     # Store embeddings in vector database
-    from langchain.vectorstores import FAISS
     vectorstore = FAISS.from_documents(splits, embedding)
 
     # Setting up the retrieval function
