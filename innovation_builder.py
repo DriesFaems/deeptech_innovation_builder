@@ -9,7 +9,8 @@ from langchain.tools import tool
 from langchain.agents import load_tools
 from langchain_openai import ChatOpenAI
 from crewai_tools import tool
-from langchain.document_loaders import PyPDFLoader
+from langchain_community.document_loaders import PyPDFLoader
+from langchain_community.vectorstores import FAISS
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import tempfile
 from langchain.agents import AgentExecutor, create_structured_chat_agent

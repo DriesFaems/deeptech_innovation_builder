@@ -1,4 +1,6 @@
-streamlit
-crewai==0.32.2
-langchain>=0.1.10,<0.2.0
+crewai
+langchain_openai
+langchain
+langchain_community
 requests
+streamlit
