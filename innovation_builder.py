@@ -25,7 +25,7 @@ st.title("Deeptech Innovation Builder")
 
 #insert picture in strealit app
 
-st.image('Innovation builder.png', caption='Deeptech Innovation Builder', use_column_width=True)
+st.image('Innovation builder.png', caption='Deeptech Innovation Builder')
 
 # Set the description of the app
 
