@@ -73,7 +73,7 @@ if st.button('Confirm') and api_key:
     # Setting up the retrieval function
     from langchain.chains import ConversationalRetrievalChain
     chain = ConversationalRetrievalChain.from_llm(
-        llm=ChatOpenAI(temperature=0.0, model_name='gpt-4o', api_key=api_key),
+        llm=ChatOpenAI(temperature=0.0, model_name='gpt-4o-mini', api_key=api_key),
         chain_type="stuff",
         retriever=vectorstore.as_retriever(),
         verbose=True
@@ -200,4 +200,5 @@ if st.button('Confirm') and api_key:
     st.markdown("**Product Optimization by the Optimization Crew**")
     st.write(f"""{finalization.output.raw_output}""")
 else:
+
     st.write("Please provide the API key your patents and click Confirm to proceed.")
